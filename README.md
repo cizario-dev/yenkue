@@ -5,7 +5,7 @@
     python -m venv venv
     pip install -r requirements.txt
 
-## deployment
+## deployment (Apache server)
 - install `mod_wsgi` globally (out of your current `virtual environment`) see https://pypi.org/project/mod-wsgi/
 
 - create `vhost` (see `etc` folder, it ships an Apache sample vhost conf, you need to adapt it and put the right path)
@@ -15,4 +15,5 @@ https://github.com/dcreager/virtualenv/blob/master/virtualenv_support/activate_t
 
 refer to this thread onb Stackoverflow
 https://stackoverflow.com/questions/27462582/how-can-i-activate-a-pyvenv-vitrualenv-from-within-python-activate-this-py-was 
+
 under active development ..
